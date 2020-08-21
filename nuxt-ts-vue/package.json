@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-ts-vue",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "export": "nuxt-ts export",
+    "serve": "nuxt-ts serve",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.10",
+    "axios": "^0.19.2",
+    "mavon-editor": "^2.9.0",
+    "nuxt": "^2.13.0",
+    "qrcode": "^1.4.4",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^9.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^1.0.3",
+    "@nuxtjs/eslint-config-typescript": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "ts-jest": "^26.1.0",
+    "vue-jest": "^3.0.4"
+  }
+}

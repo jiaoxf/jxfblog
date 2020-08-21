@@ -1,0 +1,103 @@
+@import './_layout.scss';
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  font-size:16px;
+  background: #f5f5f5;
+}
+html,
+body,
+p,
+input,
+textarea,
+button,
+div,
+span {
+    font-family: "eafont", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    --r-globalnav-height: 44px;
+    --r-globalnav-segmentbar-height: 0;
+    --r-globalnav-viewport-large-min-width: 1024px;
+    --r-globalnav-viewport-large-max-width: 1441px;
+    --r-globalnav-viewport-large-query: (min-width: 1024px);
+    --r-globalnav-viewport-medium-min-width: 768px;
+    --r-globalnav-viewport-medium-max-width: 1023px;
+    --r-globalnav-viewport-medium-query: (max-width: 1023px);
+    --r-globalnav-viewport-small-min-width: 420px;
+    --r-globalnav-viewport-small-max-width: 767px;
+    --r-globalnav-viewport-small-query: (max-width: 767px);
+    --r-globalnav-viewport-xsmall-min-width: 320px;
+    --r-globalnav-viewport-xsmall-max-width: 419px;
+    --r-globalnav-viewport-xsmall-query: (max-width: 419px);
+}
+
+@font-face {
+    font-style: normal;
+    font-family: 'eafont'; // src: url('../font/eafont.ttf') format('truetype');
+}
+
+.page {
+    transition: all 500ms;
+}
+
+.page-enter {
+    opacity: 0;
+    transform: translate(50px, 0);
+}
+
+.page-leave-active {
+    opacity: 0;
+    transform: translate(-50px, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #f2f2f2;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+:root {
+    --colorBar: #50bcb6;
+    --colorActive: #0084ff;
+    --colorComment: #EF6D57;
+    --colorDefault: #24292e;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
